@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 
 contract Moraland is ERC721URIStorage{
-    constructor() ERC721("Moraland", "MLND") {}
+    constructor() ERC721("LemonLand", "LMN") {}
 
     event Assigned(uint256 indexed tokenId, address indexed assignee, bytes bytesId);
 
